@@ -11,7 +11,7 @@ public class DemoApplication {
 	
 	@RequestMapping("/")
 	String home() {
-		return "Hello World!this is first program";
+		return "Hello World!this is first program *************************";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
